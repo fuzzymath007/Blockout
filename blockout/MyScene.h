@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+@interface MyScene : SKScene <SKPhysicsContactDelegate>
+
+@property (assign,nonatomic) int *score;
+@property (strong,nonatomic) SKAction *playBrickHit;
+@property (strong,nonatomic) SKAction *playBlip;
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57106CE7196A2E85005B238C /* BeginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57106CE6196A2E85005B238C /* BeginScene.m */; };
+		57239A21194923E400FCEFFE /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57239A20194923E400FCEFFE /* EndScene.m */; };
 		57B2815619440B2B00048408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2815519440B2B00048408 /* Foundation.framework */; };
 		57B2815819440B2B00048408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2815719440B2B00048408 /* CoreGraphics.framework */; };
 		57B2815A19440B2B00048408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2815919440B2B00048408 /* UIKit.framework */; };
@@ -17,13 +19,15 @@
 		57B2816B19440B2B00048408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B2816919440B2B00048408 /* Main.storyboard */; };
 		57B2816E19440B2B00048408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B2816D19440B2B00048408 /* ViewController.m */; };
 		57B2817119440B2B00048408 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B2817019440B2B00048408 /* MyScene.m */; };
-		57B2817319440B2B00048408 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B2817219440B2B00048408 /* Spaceship.png */; };
 		57B2817519440B2B00048408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B2817419440B2B00048408 /* Images.xcassets */; };
 		57B2817C19440B2B00048408 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2817B19440B2B00048408 /* XCTest.framework */; };
 		57B2817D19440B2B00048408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2815519440B2B00048408 /* Foundation.framework */; };
 		57B2817E19440B2B00048408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B2815919440B2B00048408 /* UIKit.framework */; };
 		57B2818619440B2B00048408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B2818419440B2B00048408 /* InfoPlist.strings */; };
 		57B2818819440B2B00048408 /* blockoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B2818719440B2B00048408 /* blockoutTests.m */; };
+		57B9192A1947F3A5002248FB /* blip.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57B919271947F3A5002248FB /* blip.caf */; };
+		57B9192B1947F3A5002248FB /* brickhit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57B919281947F3A5002248FB /* brickhit.caf */; };
+		57B9192C1947F3A5002248FB /* gameover.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57B919291947F3A5002248FB /* gameover.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57106CE5196A2E85005B238C /* BeginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeginScene.h; path = ../BeginScene.h; sourceTree = "<group>"; };
+		57106CE6196A2E85005B238C /* BeginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeginScene.m; path = ../BeginScene.m; sourceTree = "<group>"; };
+		57239A1F194923E400FCEFFE /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndScene.h; sourceTree = "<group>"; };
+		57239A20194923E400FCEFFE /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndScene.m; sourceTree = "<group>"; };
 		57B2815219440B2B00048408 /* blockout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B2815519440B2B00048408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57B2815719440B2B00048408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +61,15 @@
 		57B2816D19440B2B00048408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		57B2816F19440B2B00048408 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		57B2817019440B2B00048408 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		57B2817219440B2B00048408 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		57B2817419440B2B00048408 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57B2817A19440B2B00048408 /* blockoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B2817B19440B2B00048408 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		57B2818319440B2B00048408 /* blockoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blockoutTests-Info.plist"; sourceTree = "<group>"; };
 		57B2818519440B2B00048408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57B2818719440B2B00048408 /* blockoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockoutTests.m; sourceTree = "<group>"; };
+		57B919271947F3A5002248FB /* blip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blip.caf; sourceTree = "<group>"; };
+		57B919281947F3A5002248FB /* brickhit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = brickhit.caf; sourceTree = "<group>"; };
+		57B919291947F3A5002248FB /* gameover.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameover.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,14 +131,18 @@
 		57B2815D19440B2B00048408 /* blockout */ = {
 			isa = PBXGroup;
 			children = (
-				57B2816619440B2B00048408 /* AppDelegate.h */,
-				57B2816719440B2B00048408 /* AppDelegate.m */,
+				57B919271947F3A5002248FB /* blip.caf */,
+				57B919281947F3A5002248FB /* brickhit.caf */,
+				57B919291947F3A5002248FB /* gameover.caf */,
 				57B2816919440B2B00048408 /* Main.storyboard */,
+				57106CE5196A2E85005B238C /* BeginScene.h */,
+				57106CE6196A2E85005B238C /* BeginScene.m */,
 				57B2816C19440B2B00048408 /* ViewController.h */,
 				57B2816D19440B2B00048408 /* ViewController.m */,
 				57B2816F19440B2B00048408 /* MyScene.h */,
 				57B2817019440B2B00048408 /* MyScene.m */,
-				57B2817219440B2B00048408 /* Spaceship.png */,
+				57239A1F194923E400FCEFFE /* EndScene.h */,
+				57239A20194923E400FCEFFE /* EndScene.m */,
 				57B2817419440B2B00048408 /* Images.xcassets */,
 				57B2815E19440B2B00048408 /* Supporting Files */,
 			);
@@ -138,6 +152,8 @@
 		57B2815E19440B2B00048408 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57B2816619440B2B00048408 /* AppDelegate.h */,
+				57B2816719440B2B00048408 /* AppDelegate.m */,
 				57B2815F19440B2B00048408 /* blockout-Info.plist */,
 				57B2816019440B2B00048408 /* InfoPlist.strings */,
 				57B2816319440B2B00048408 /* main.m */,
@@ -241,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B2816219440B2B00048408 /* InfoPlist.strings in Resources */,
+				57B9192A1947F3A5002248FB /* blip.caf in Resources */,
+				57B9192C1947F3A5002248FB /* gameover.caf in Resources */,
+				57B9192B1947F3A5002248FB /* brickhit.caf in Resources */,
 				57B2817519440B2B00048408 /* Images.xcassets in Resources */,
-				57B2817319440B2B00048408 /* Spaceship.png in Resources */,
 				57B2816B19440B2B00048408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +282,10 @@
 			files = (
 				57B2817119440B2B00048408 /* MyScene.m in Sources */,
 				57B2816E19440B2B00048408 /* ViewController.m in Sources */,
+				57106CE7196A2E85005B238C /* BeginScene.m in Sources */,
 				57B2816819440B2B00048408 /* AppDelegate.m in Sources */,
 				57B2816419440B2B00048408 /* main.m in Sources */,
+				57239A21194923E400FCEFFE /* EndScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,8 +413,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blockout/blockout-Prefix.pch";
 				INFOPLIST_FILE = "blockout/blockout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,8 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blockout/blockout-Prefix.pch";
 				INFOPLIST_FILE = "blockout/blockout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -472,6 +496,7 @@
 				57B2818D19440B2B00048408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B2818E19440B2B00048408 /* Build configuration list for PBXNativeTarget "blockoutTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +505,7 @@
 				57B2819019440B2B00048408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
